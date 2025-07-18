@@ -1,0 +1,24 @@
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f4f8; /* Light blue-gray background */
+}
+#app-container {
+    display: none; /* Hidden by default */
+    width: 100%;
+    height: 100%;
+    position: fixed; /* Cover the whole screen */
+    top: 0;
+    left: 0;
+    z-index: 1000; /* Ensure it's on top */
+    background-color: #f0f4f8; /* Match body background */
+    overflow-y: auto; /* Enable scrolling if content overflows */
+}
+
+/* Tailwind CSS is loaded via CDN in index1.html, so these custom styles are minimal */
+/* Add any additional custom CSS here if needed, beyond Tailwind classes */
